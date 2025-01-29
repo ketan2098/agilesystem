@@ -1,0 +1,30 @@
+/* .react-colorful {
+    flex-direction: row !important;
+    width: 100% !important;
+}
+
+.react-colorful__hue.react-colorful__last-control {
+    display: absolute;
+    right: 0;
+    top: 0;
+    width: 10% !important;
+    height: 100% !important;
+    rotate: 20deg !important;
+    background: linear-gradient(0deg, red 0, #ff0 17%, #0f0 33%, #0ff 50%, #00f 67%, #f0f 83%, red);
+} */
+.react-colorful__hue {
+    border-radius: 0 !important;
+}
+
+
+.react-colorful__saturation {
+    width: 200px;
+    height: 100%;
+    border-radius: 0 !important;
+    border-bottom: none !important;
+}
+
+.react-colorful__pointer {
+    width: 10px !important;
+    height: 10px !important;
+}
