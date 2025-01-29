@@ -28,12 +28,16 @@ function App() {
             <TextureLibrary />
             <UploadForm />
             <Divider />
-            <Elements />
-            <ColorPickerContainer />
+            {/* <Elements />
+            <ColorPickerContainer /> */}
             <Settings />
           </VStack>
         </VStack>
         <Canvas3D />
+        <VStack width={"40rem"} overflowY={"auto"}>
+          <Elements />
+          <ColorPickerContainer />
+        </VStack>
       </HStack>
     </>
   );
