@@ -18,7 +18,8 @@ function App() {
         <VStack
           height={"100vh"}
           maxHeight={"100vh"}
-          width={"450px"}
+          // width={"450px"}
+          width={"40rem"}
           bgColor={"bgDGray"}>
           {/* <SideBarHeader /> */}
           <VStack width={"full"} overflowY={"auto"}>
