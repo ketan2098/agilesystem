@@ -34,7 +34,12 @@ function App() {
           </VStack>
         </VStack>
         <Canvas3D />
-        <VStack width={"40rem"} overflowY={"auto"}>
+        <VStack
+          width={"40rem"}
+          overflow={"auto"}
+          minHeight={"36rem"}
+          height={"100%"}
+          paddingTop={"10px"}>
           <Elements />
           <ColorPickerContainer />
         </VStack>
